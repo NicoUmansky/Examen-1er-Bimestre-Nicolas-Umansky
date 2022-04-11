@@ -292,8 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96546c9e3856b1b4db521226936e0200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monedaextranjera: R
-  montoconvertir: 545
+  monedaextranjera: E
+  montoconvertir: 13444
 --- !u!4 &1753310370
 Transform:
   m_ObjectHideFlags: 0

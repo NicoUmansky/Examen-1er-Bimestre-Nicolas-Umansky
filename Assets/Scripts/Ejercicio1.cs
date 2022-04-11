@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ejercicio1 : MonoBehaviour
 {
     public string monedaextranjera;
-    public float montoconvertir;
+    public int montoconvertir;
     void Start()
     {
         if (montoconvertir < 1000)
