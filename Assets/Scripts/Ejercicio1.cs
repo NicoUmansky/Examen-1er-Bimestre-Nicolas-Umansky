@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class Ejercicio1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public string monedaextranjera;
+    public float montoconvertir;
     void Start()
     {
-        
+        if (montoconvertir < 1000)
+        {
+            Debug.Log("El monto mínimo es $1000");
+        }
+        else if (monedaextranjera == "D")
+        {
+            Debug.Log("$" + montoconvertir + " pesos argentinos equivalen a " + montoconvertir / 112 + " dolares");
+        }
+        else if (monedaextranjera == "R")
+        {
+            Debug.Log("$" + montoconvertir + " pesos argentinos equivalen a " + montoconvertir / 23 + " reales");
+        }
+        else if (monedaextranjera == "E")
+        {
+            Debug.Log("$" + montoconvertir + " pesos argentinos equivalen a " + montoconvertir / 122 + " euros");
+        }
+        else
+        {
+            Debug.Log("Opción de moneda extranjera no válida");
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
